@@ -15,8 +15,6 @@ const anima = keyframes`
 `
 
 
-
-
 export const Container = styled.a`
   opacity: 0;
   cursor: pointer;
@@ -40,7 +38,6 @@ export const Container = styled.a`
   animation-duration: .4s;  
   animation-timing-function: ease-in;
   animation-fill-mode: forwards;
-
-
+  z-index: 99999;
 `
 

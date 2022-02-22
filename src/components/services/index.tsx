@@ -46,20 +46,61 @@ const Services: React.FC = () => {
         </BlockContent>
         <BsPersonBadge className="iconService" />
       </Blocks>
-      {/* <Blocks color={"#607d8b"}>
-        <h2>DIREITO DA FAMÍLIA</h2>
+
+      <Blocks color={"#6aa9dd"}>
+        <h2>Direito de Família e Sucessões</h2>
         <BlockContent>
-          <p>
-            Ações de divórcio, alimentos,
-            guarda, visitas, inventário,
-            reconhecimento e dissolução
-            de união estável, execução
-            revisão e exoneração de
-            alimentos, dentre outras.
+          <p>Pacto antenupcial, divórcio consensual, divórcio extrajudicial, divórcio
+            litigioso, investigação de paternidade, pensão alimentícia, pedido de
+            guarda, regulamentação de visitas, partilha de bens, inventário judicial,
+            inventário extrajudicial e testamentos.
           </p>
         </BlockContent>
-        <BsPeople className="iconService" />
-      </Blocks> */}
+        <BsPersonBadge className="iconService" />
+      </Blocks>
+
+
+
+      <Blocks color={"#6aa9dd"}>
+        <h2>Direito do Consumidor</h2>
+        <BlockContent>
+          <p>Indenização por danos morais e materiais, negativação indevida do
+            nome (protesto), prática abusiva, contratos em geral, cobrança de
+            dívida, publicidade e oferta de produtos e serviços, responsabilidade
+            pelo fornecimento e defeitos de produtos e serviços.
+          </p>
+        </BlockContent>
+        <BsPersonBadge className="iconService" />
+      </Blocks>
+
+      <Blocks color={"#6aa9dd"}>
+        <h2>Direito Imobiliário</h2>
+        <BlockContent>
+          <p>Contrato de compra e venda de imóveis, contrato de locação, ação de
+            despejo, cobrança de aluguéis, ação revisional e renovatória,
+            condomínios edilícios (cobrança de inadimplentes, participação em
+            assembleia, assessoria do síndico, administradora e do corpo diretivo
+            e terceirização de mão de obra), incorporação, hipoteca,
+            financiamento imobiliário, reintegração de posse, usucapião, registro
+            de imóveis, parcelamento do solo urbano (loteamento,
+            desmembramento e desdobro) e desapropriação.
+          </p>
+        </BlockContent>
+        <BsPersonBadge className="iconService" />
+      </Blocks>
+
+
+      <Blocks color={"#6aa9dd"}>
+        <h2>Direito de Família e Sucessões</h2>
+        <BlockContent>
+          <p>Pacto antenupcial, divórcio consensual, divórcio extrajudicial, divórcio
+            litigioso, investigação de paternidade, pensão alimentícia, pedido de
+            guarda, regulamentação de visitas, partilha de bens, inventário judicial,
+            inventário extrajudicial e testamentos.
+          </p>
+        </BlockContent>
+        <BsPersonBadge className="iconService" />
+      </Blocks>
 
 
     </Container>

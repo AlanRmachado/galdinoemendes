@@ -6,7 +6,7 @@ interface IBlocks {
 
 export const Container = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 21.25rem); 
+  grid-template-columns: repeat(3, 21.25rem); 
 
   justify-content: center;
   gap: 20px;
@@ -44,6 +44,7 @@ export const Blocks = styled.div<IBlocks>`
   }
   
  > h2{
+    text-transform: uppercase;
     margin: 26px 25px 0;
     color: rgba(0,0,0,.7);
     font-size: 1rem;
